@@ -1,4 +1,4 @@
-import 'package:flutter_2_app/data/dto/location_response.dart';
+import 'package:rick_and_morty/data/dto/location_response.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'person_response.g.dart';

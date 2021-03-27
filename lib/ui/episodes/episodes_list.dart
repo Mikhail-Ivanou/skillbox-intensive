@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_2_app/data/provider.dart';
-import 'package:flutter_2_app/models/episode.dart';
-import 'package:flutter_2_app/ui/common/abstract_list_widget.dart';
-import 'package:flutter_2_app/ui/common/custom_sliver_grid_view.dart';
-import 'package:flutter_2_app/ui/episodes/episode_item.dart';
+import 'package:rick_and_morty/data/provider.dart';
+import 'package:rick_and_morty/models/episode.dart';
+import 'package:rick_and_morty/ui/common/abstract_list_widget.dart';
+import 'package:rick_and_morty/ui/common/custom_sliver_grid_view.dart';
+import 'package:rick_and_morty/ui/episodes/episode_item.dart';
 
 class EpisodesList extends StatefulWidget {
   @override

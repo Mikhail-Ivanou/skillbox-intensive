@@ -1,16 +1,16 @@
 import 'dart:convert';
 
-import 'package:flutter_2_app/data/dto/episodes_response.dart';
-import 'package:flutter_2_app/data/dto/location_response.dart';
-import 'package:flutter_2_app/models/episode.dart';
-import 'package:flutter_2_app/models/error.dart';
-import 'package:flutter_2_app/models/location.dart';
+import 'package:rick_and_morty/data/dto/episodes_response.dart';
+import 'package:rick_and_morty/data/dto/location_response.dart';
+import 'package:rick_and_morty/models/episode.dart';
+import 'package:rick_and_morty/models/error.dart';
+import 'package:rick_and_morty/models/location.dart';
 import 'package:http/http.dart' as http;
-import 'package:flutter_2_app/data/dto/person_response.dart';
-import 'package:flutter_2_app/data/extensions/person_extension.dart';
-import 'package:flutter_2_app/data/extensions/location_extension.dart';
-import 'package:flutter_2_app/data/extensions/episodes_extension.dart';
-import 'package:flutter_2_app/models/person.dart';
+import 'package:rick_and_morty/data/dto/person_response.dart';
+import 'package:rick_and_morty/data/extensions/person_extension.dart';
+import 'package:rick_and_morty/data/extensions/location_extension.dart';
+import 'package:rick_and_morty/data/extensions/episodes_extension.dart';
+import 'package:rick_and_morty/models/person.dart';
 
 class DataProvider {
   static Future<List<Person>> loadPersons({int page = 1}) async {

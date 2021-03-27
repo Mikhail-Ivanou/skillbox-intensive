@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_2_app/data/provider.dart';
-import 'package:flutter_2_app/models/location.dart';
-import 'package:flutter_2_app/ui/common/abstract_list_widget.dart';
-import 'package:flutter_2_app/ui/common/custom_sliver_grid_view.dart';
-import 'package:flutter_2_app/ui/locations/location_item.dart';
+import 'package:rick_and_morty/data/provider.dart';
+import 'package:rick_and_morty/models/location.dart';
+import 'package:rick_and_morty/ui/common/abstract_list_widget.dart';
+import 'package:rick_and_morty/ui/common/custom_sliver_grid_view.dart';
+import 'package:rick_and_morty/ui/locations/location_item.dart';
 
 class LocationsList extends StatefulWidget {
   @override

@@ -1,4 +1,4 @@
-import 'package:flutter_2_app/models/location.dart';
+import 'package:rick_and_morty/models/location.dart';
 
 class Person {
   final int id;

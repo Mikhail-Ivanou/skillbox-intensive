@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_2_app/colors.dart';
-import 'package:flutter_2_app/models/episode.dart';
-import 'package:flutter_2_app/ui/episodes/episode_details.dart';
+import 'package:rick_and_morty/colors.dart';
+import 'package:rick_and_morty/models/episode.dart';
+import 'package:rick_and_morty/ui/episodes/episode_details.dart';
 
 class EpisodeItem extends StatelessWidget {
   final Episode episode;

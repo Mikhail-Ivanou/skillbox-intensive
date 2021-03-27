@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_2_app/colors.dart';
-import 'package:flutter_2_app/models/person.dart';
-import 'package:flutter_2_app/ui/person_detail/person_page.dart';
+import 'package:rick_and_morty/colors.dart';
+import 'package:rick_and_morty/models/person.dart';
+import 'package:rick_and_morty/ui/person_detail/person_page.dart';
 
 class PersonCellWidget extends StatelessWidget {
   final Person person;

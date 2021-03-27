@@ -1,6 +1,6 @@
-import 'package:flutter_2_app/data/dto/person_response.dart';
-import 'package:flutter_2_app/models/person.dart';
-import 'package:flutter_2_app/data/extensions/location_extension.dart';
+import 'package:rick_and_morty/data/dto/person_response.dart';
+import 'package:rick_and_morty/models/person.dart';
+import 'package:rick_and_morty/data/extensions/location_extension.dart';
 
 extension PersonExtension on PersonResponse {
   Person toModel() {

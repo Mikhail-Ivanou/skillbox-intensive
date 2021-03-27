@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_2_app/colors.dart';
-import 'package:flutter_2_app/models/location.dart';
-import 'package:flutter_2_app/ui/locations/location_details.dart';
+import 'package:rick_and_morty/colors.dart';
+import 'package:rick_and_morty/models/location.dart';
+import 'package:rick_and_morty/ui/locations/location_details.dart';
 
 class LocationItem extends StatelessWidget {
   final Location location;

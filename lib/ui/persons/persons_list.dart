@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_2_app/data/provider.dart';
-import 'package:flutter_2_app/models/person.dart';
-import 'package:flutter_2_app/ui/common/abstract_list_widget.dart';
-import 'package:flutter_2_app/ui/persons/person_item.dart';
+import 'package:rick_and_morty/data/provider.dart';
+import 'package:rick_and_morty/models/person.dart';
+import 'package:rick_and_morty/ui/common/abstract_list_widget.dart';
+import 'package:rick_and_morty/ui/persons/person_item.dart';
 
 class PersonsList extends StatefulWidget {
   @override

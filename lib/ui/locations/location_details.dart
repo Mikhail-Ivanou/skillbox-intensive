@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_2_app/data/provider.dart';
-import 'package:flutter_2_app/models/episode.dart';
-import 'package:flutter_2_app/models/location.dart';
-import 'package:flutter_2_app/models/person.dart';
-import 'package:flutter_2_app/ui/common/custom_sliver_grid_view.dart';
-import 'package:flutter_2_app/ui/persons/person_small_item.dart';
+import 'package:rick_and_morty/data/provider.dart';
+import 'package:rick_and_morty/models/episode.dart';
+import 'package:rick_and_morty/models/location.dart';
+import 'package:rick_and_morty/models/person.dart';
+import 'package:rick_and_morty/ui/common/custom_sliver_grid_view.dart';
+import 'package:rick_and_morty/ui/persons/person_small_item.dart';
 
 class LocationDetailsPage extends StatelessWidget {
   final Location location;

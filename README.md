@@ -1,4 +1,4 @@
-# flutter_2_app
+# rick_and_morty
 
 A new Flutter application.
 

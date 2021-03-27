@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_2_app/colors.dart';
-import 'package:flutter_2_app/data/provider.dart';
-import 'package:flutter_2_app/models/episode.dart';
-import 'package:flutter_2_app/models/person.dart';
+import 'package:rick_and_morty/colors.dart';
+import 'package:rick_and_morty/data/provider.dart';
+import 'package:rick_and_morty/models/episode.dart';
+import 'package:rick_and_morty/models/person.dart';
 
 class PersonPage extends StatelessWidget {
   final Person person;

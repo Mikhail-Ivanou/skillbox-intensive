@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_2_app/colors.dart';
-import 'package:flutter_2_app/ui/episodes/episodes_list.dart';
-import 'package:flutter_2_app/ui/locations/locations_list.dart';
-import 'package:flutter_2_app/ui/persons/persons_list.dart';
+import 'package:rick_and_morty/colors.dart';
+import 'package:rick_and_morty/ui/episodes/episodes_list.dart';
+import 'package:rick_and_morty/ui/locations/locations_list.dart';
+import 'package:rick_and_morty/ui/persons/persons_list.dart';
 
 void main() {
   runApp(MyApp());

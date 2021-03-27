@@ -1,5 +1,5 @@
-import 'package:flutter_2_app/data/dto/location_response.dart';
-import 'package:flutter_2_app/models/location.dart';
+import 'package:rick_and_morty/data/dto/location_response.dart';
+import 'package:rick_and_morty/models/location.dart';
 
 extension LocationExtension on LocationResponse {
   Location toModel() {
